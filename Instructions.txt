@@ -1,55 +1,58 @@
-Here are the instructions to use the Chemical Inventory System application:
+Here are the instructions to use the Chemical Inventory application:
 
- Chemical Inventory System User Instructions
+Chemical Inventory application User Instructions
 
- Overview
-The Chemical Inventory System allows users to manage a list of chemicals, including their details such as name, vendor, density, viscosity, packaging, pack size, unit, and quantity. Users can add, edit, delete, and sort the chemical entries.
-
- Features
+#Overview
+This is a web-based application for managing a list of chemicals with functionalities for adding, editing, deleting, sorting, and rearranging rows. The system is designed using plain HTML, CSS, and JavaScript
+ 
+#Features
 - Add Row: Add a new chemical entry with default values.
 - Edit Row: Modify the details of the selected chemical entry.
 - Delete Row: Remove a chemical entry by specifying its ID.
+- Sort: Sort columns in ascending or descending order by clicking on the headers.
 - Move Up/Down: Navigate through the rows to select a specific entry for editing.
 - Refresh: Reload the displayed data.
 - Save: Log the current state of the inventory to the console.
 
- Getting Started
-
- Prerequisites
+ #Prerequisites
 - A modern web browser (e.g., Chrome, Firefox, Safari).
-- Optional: A local server environment for testing (e.g., XAMPP, MAMP).
 
- Installation
-1. Download the Application: Obtain the zip file containing the application files.
-2. Extract the Files: Unzip the downloaded file to a directory on your computer.
+#Getting Started
 
- Running the Application
-1. Open the Application: Launch the `index.html` file in your web browser.
-2. The application will display a default list of chemical entries.
+Hosting Details:
+The application is hosted on GitHub Pages and can be accessed via the following link:
 
- Using the Application
-- Add Row:
-  - Click the "Add Row" button to insert a new chemical entry.
-  
-- Edit Row:
-  - Use the "Move Up" and "Move Down" buttons to select the row you want to edit.
-  - Click the "Edit Row" button to enable editing for the selected row.
-  
-- Delete Row:
-  - Click the "Delete Row" button.
-  - Enter the ID of the chemical entry you wish to delete when prompted.
-  
-- Move Up/Down:
-  - Click "Move Up" to select the previous row or "Move Down" to select the next row.
-  
-- Refresh:
-  - Click the "Refresh" button to reload the current list of chemicals.
-  
-- Save:
-  - Click the "Save" button to log the current inventory data to the console for review.
+Hosted Link: https://isamantri31.github.io/Chemical-Inventory-App/
+You can directly access and interact with the application through this hosted link.
 
- Customization
-You can customize the application by editing the JavaScript, HTML, and CSS files as needed. All files are stored locally within the project directory.
+Repository Details:
+If you wish to view the source code or contribute to the project, you can access the GitHub repository here:
 
- Conclusion
-The Chemical Inventory System provides a simple interface for managing chemical data. It is user-friendly and can be further enhanced based on specific requirements.
+GitHub Repository Link: https://github.com/Isamantri31/Chemical-Inventory-App
+
+#How to Use:
+
+Add Row: Click the "Add Row" button to add a new row with default values. The row can then be edited.
+Move Up/Down: Select a row and use the "Move Up" or "Move Down" buttons to rearrange it within the table.
+Delete Row: To delete a row, click the "Delete Row" button, and a pop-up will prompt you to enter the ID of the row you want to delete.
+Edit Row: Select a row and click the "Edit Row" button to make the row editable.
+Save Data: Once all changes are made, click the "Save" button to save the table data locally.
+Sort Table: Click on any table header to sort the column in ascending or descending order.
+
+#Running Locally:
+If you prefer to run the application locally:
+
+Clone or download the repository.
+Open the index.html file in your browser.
+
+#Technologies Used:
+HTML5: Structure of the web page.
+CSS: Styling and layout.
+JavaScript: Dynamic functionalities such as adding, deleting, and rearranging rows.
+GitHub: To store codes and other files in repository , can be accessed easily.
+GitHub Pages: Static hosting platform for the web application.
+
+#Design Choices:
+No External Libraries: All required CSS and JavaScript code are included locally, ensuring fast load times.
+Responsiveness: The design adapts to different screen sizes using CSS media queries.
+Sorting and Editing: Interactive table headers for sorting and editable rows for flexibility.
