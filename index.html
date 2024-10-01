@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Inventory Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button id="addRowBtn">Add Row</button>
+        <button id="moveUpBtn">Move Row Up</button>
+        <button id="moveDownBtn">Move Row Down</button>
+        <button id="deleteRowBtn">Delete Row</button>
+        <button id="editRowBtn">Edit Row</button>
+        <button id="refreshBtn">Refresh Data</button>
+        <button id="saveBtn">Save Data</button>
+    </div>
+
+    <table id="chemicalTable" border="1">
+        <thead>
+            <tr>
+                <th data-column="id" data-order="asc">ID</th>
+                <th data-column="name" data-order="asc">Chemical Name</th>
+                <th data-column="vendor" data-order="asc">Vendor</th>
+                <th data-column="density" data-order="asc">Density</th>
+                <th data-column="viscosity" data-order="asc">Viscosity</th>
+                <th data-column="packaging" data-order="asc">Packaging</th>
+                <th data-column="packSize" data-order="asc">Pack Size</th>
+                <th data-column="unit" data-order="asc">Unit</th>
+                <th data-column="quantity" data-order="asc">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be dynamically generated here -->
+        </tbody>
+    </table>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

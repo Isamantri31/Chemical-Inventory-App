@@ -1,0 +1,55 @@
+Here are the instructions to use the Chemical Inventory System application:
+
+ Chemical Inventory System User Instructions
+
+ Overview
+The Chemical Inventory System allows users to manage a list of chemicals, including their details such as name, vendor, density, viscosity, packaging, pack size, unit, and quantity. Users can add, edit, delete, and sort the chemical entries.
+
+ Features
+- Add Row: Add a new chemical entry with default values.
+- Edit Row: Modify the details of the selected chemical entry.
+- Delete Row: Remove a chemical entry by specifying its ID.
+- Move Up/Down: Navigate through the rows to select a specific entry for editing.
+- Refresh: Reload the displayed data.
+- Save: Log the current state of the inventory to the console.
+
+ Getting Started
+
+ Prerequisites
+- A modern web browser (e.g., Chrome, Firefox, Safari).
+- Optional: A local server environment for testing (e.g., XAMPP, MAMP).
+
+ Installation
+1. Download the Application: Obtain the zip file containing the application files.
+2. Extract the Files: Unzip the downloaded file to a directory on your computer.
+
+ Running the Application
+1. Open the Application: Launch the `index.html` file in your web browser.
+2. The application will display a default list of chemical entries.
+
+ Using the Application
+- Add Row:
+  - Click the "Add Row" button to insert a new chemical entry.
+  
+- Edit Row:
+  - Use the "Move Up" and "Move Down" buttons to select the row you want to edit.
+  - Click the "Edit Row" button to enable editing for the selected row.
+  
+- Delete Row:
+  - Click the "Delete Row" button.
+  - Enter the ID of the chemical entry you wish to delete when prompted.
+  
+- Move Up/Down:
+  - Click "Move Up" to select the previous row or "Move Down" to select the next row.
+  
+- Refresh:
+  - Click the "Refresh" button to reload the current list of chemicals.
+  
+- Save:
+  - Click the "Save" button to log the current inventory data to the console for review.
+
+ Customization
+You can customize the application by editing the JavaScript, HTML, and CSS files as needed. All files are stored locally within the project directory.
+
+ Conclusion
+The Chemical Inventory System provides a simple interface for managing chemical data. It is user-friendly and can be further enhanced based on specific requirements.
